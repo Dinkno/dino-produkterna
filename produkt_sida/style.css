@@ -1,0 +1,209 @@
+.container {
+  display: flex;
+  height: 50px;
+  align-items: stretch;
+  justify-content: space-evenly;
+  background-color: #262626;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+.item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+  
+.titel + .varukorg {
+  margin-left: 2%;
+}
+
+.item + .item {
+  margin-left: 2%;
+}
+
+.item + .titel {
+  margin-left: 2%;
+}
+
+.titel + .item {
+  margin-left: 2%;
+}
+
+.titel {
+  flex-grow: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline ;
+}
+
+.rubrik {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 30px;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto ;
+  flex-wrap: wrap;
+}
+
+.content {
+  height: auto;
+  width: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #c7c7c7;
+  border-radius: 32px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+
+.content + .content {
+  margin-left: 2%;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  border: solid darkgray;
+  border-top-style: solid black;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+}
+
+
+.a:link, .a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.a:hover, .a:active {
+  background-color: #313131;
+  text-decoration: underline;
+}
+
+.titellink {
+  color: white;
+  text-align: center;
+}
+
+.varukorg {
+  flex-grow: 1;
+  display: flex;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  height: auto;
+  margin-right:50px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50px;
+  justify-content: center;
+}
+
+.varukorg:hover, .varukorg:active {
+  background-color: #313131;
+  text-decoration: underline;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.text {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+
+}
+
+.buy {
+  width: 400px;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buy2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.buy3{
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+}
+
+.buy3 {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+}
+
+.button:link, .button:visited {
+  color: #000000af;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid rgba(0, 0, 0, 0.068);
+}
+
+.button:hover, .button:active {
+  background-color: #adadad;
+  text-decoration: underline;
+}
+
+span {
+  height: auto;
+  width: 100%;
+}

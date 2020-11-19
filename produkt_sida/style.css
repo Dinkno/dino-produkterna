@@ -1,3 +1,5 @@
+
+/*"container" är en stor låda där man har fritt att bestämma hur man läger saker inuti den. */ 
 .container {
   display: flex;
   height: 50px;
@@ -10,6 +12,7 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
+/*"item" är då det jag har i min container. Tack vare container kan jag lätt bestäma om min bild eller text ska var i mitten av sidan */
 .item {
   flex-grow: 1;
   display: flex;
@@ -18,7 +21,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
-  
+  /* Detta betyder när dessa tvp classer är nära varandra så få de denna effekt. Som nu gör att de går iisär */
 .titel + .varukorg {
   margin-left: 2%;
 }
@@ -44,7 +47,7 @@ body {
   color: white;
   text-decoration: underline ;
 }
-
+/* Detta var en ansam flex box bara för jag ville få min rubrik i mitten av sidan. */
 .rubrik {
   display: flex;
   align-items: center;
@@ -83,7 +86,7 @@ body {
 .content + .content {
   margin-left: 2%;
 }
-
+/* Footer använd för att få kontakter och annan information på botten av sidan */
 footer {
   text-align: center;
   position: fixed;
@@ -97,7 +100,7 @@ footer {
   border-right-style: none;
 }
 
-
+/* Gör olika effekter beronde på vad som man gör med classen. Ex aktiverar jag min länk så får jag en underline och en annan färg */
 .a:link, .a:visited {
   color: white;
   padding: 14px 25px;
